@@ -10,7 +10,6 @@ def moyenne(valeurs):
     # docstrings en markdown
     """
     # Calcule la moyenne des valeurs.
-
     **Paramètres**
     - `valeurs` : valeurs dont on veut calculer la moyenne
 
@@ -22,8 +21,6 @@ def moyenne(valeurs):
 
     ---
     """
-    if valeurs == []:
-        return ValueError
     return sum(valeurs)/len(valeurs)
 
 
